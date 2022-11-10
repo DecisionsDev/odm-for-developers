@@ -1,9 +1,7 @@
 
 This repository is the home directory of IBM Operational Decision Manager for Developers.
 
-# New: IBM Container Registry
-
-IBM® is now hosting product images on the IBM Container Registry, *icr.io*. You can obtain the IBM Operational Decision Manager for Developers image without authenticating by using this IBM-controlled source: *icr.io/odm-k8s*.
+IBM® is hosting product images on the IBM Container Registry, *icr.io*. You can obtain the IBM Operational Decision Manager for Developers image without authenticating by using this IBM-controlled source: *icr.io/odm-k8s*.
 
 ```console
 docker pull icr.io/odm-k8s/odm
