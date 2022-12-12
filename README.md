@@ -1,9 +1,8 @@
 
 This repository is the home directory of IBM Operational Decision Manager for Developers.
 
-# New: IBM Container Registry
+IBM® is hosting product images on the IBM Container Registry, *icr.io*. You can obtain the IBM Operational Decision Manager for Developers image without authenticating by using this IBM-controlled source: *icr.io/cpopen/odm-k8s*.
 
-IBM® is now hosting product images on the IBM Container Registry, *icr.io*. You can obtain the IBM Operational Decision Manager for Developers image without authenticating by using this IBM-controlled source: *icr.io/cpopen/odm-k8s/odm*.
 
 ```console
 docker pull icr.io/cpopen/odm-k8s/odm
@@ -121,5 +120,3 @@ When the server is started, use the URL http://localhost:9060 to display a welco
   -	[IBM Operational Decision Manager for Developers ](https://raw.githubusercontent.com/ODMDev/odm-ondocker/master/standalone/licenses/Lic_en.txt)
 
 **Note**: The IBM Operational Decision Manager for Developers license does not permit further distribution and the terms restrict usage to a developer machine.
-
-
