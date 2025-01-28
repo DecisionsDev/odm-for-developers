@@ -109,3 +109,5 @@ When the server is started, use the URL http://localhost:9060 to display a welco
 **Note**: The IBM Operational Decision Manager for Developers license does not permit further distribution and the terms restrict usage to a developer machine.
 
 
+ # Notice
+ © Copyright IBM Corporation 2025.
