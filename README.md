@@ -26,17 +26,22 @@ docker pull icr.io/cpopen/odm-k8s/odm
         https://github.com/ODMDev/odm-ondocker/tree/master/standalone/dockerhub
 
 -	**Supported Docker versions**:  
-	[latest release](https://docs.docker.com/engine/release-notes/#201021) (down to Engine 20.10)
+	[latest release](https://docs.docker.com/engine/release-notes/#201021) (down to Engine 29.4)
 
--	**Rule Designer development environment for ODM developers**:  
-	Available from the [Eclipse marketplace](https://marketplace.eclipse.org/content/ibm-operational-decision-manager-developers-v95x-rule-designer)
+-   **Rule Designer Development Environment for ODM Developers**:
 
-	You install Rule Designer into [Eclipse 2024-12 (4.34)](https://www.eclipse.org/downloads/packages/release/2024-12/r). Use at least [Eclipse Modeling Tool](https://www.eclipse.org/downloads/packages/release/2024-12/r/eclipse-modeling-tools) or [Eclipse IDE for Enterprise Java and Web Developers](https://www.eclipse.org/downloads/packages/release/2024-12/r/eclipse-ide-enterprise-java-and-web-developers).
-    
-	Eclipse 2024-12 uses Java Development Kit (JDK) 21. You can download the JDK from [IBM Semeru Runtimes Downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/).
+	You have three options for installing Rule Designer, which you use to create decision services to implement your business logic.
 
-	More informations on [ODM Documentation- Installing Rule Designer](https://www.ibm.com/docs/en/odm/9.5.0?topic=950-installing-rule-designer)
+	Your options include a ready-to-use version and online and offline versions that use an existing Eclipse installation. For the online and offline installations, you must have [Eclipse 2025-12](https://www.ibm.com/links?url=https%3A%2F%2Fwww.eclipse.org%2Fdownloads%2Fpackages%2Frelease%2F2025-12%2Fr) (v3.8). The ready-to-use version is the preferred installation — no Eclipse or Java installation required.
 
+	| Option | Description |
+	|---|---|
+	| [Installing the ready-to-use Rule Designer](https://www.ibm.com/docs/en/SSQP76_9.6.0/com.ibm.odm.kube/shared_config_topics/tsk_instal_stand_rd.html) | The ready-to-use version comes preconfigured. You only need to configure it to run with your components. **Preferred option.** |
+	| [Installing Rule Designer online](https://www.ibm.com/docs/en/SSQP76_9.6.0/com.ibm.odm.kube/topics/tsk_install_designer.html) | Install Rule Designer in Eclipse from the Eclipse Marketplace. Requires an existing Eclipse installation. |
+	| [Installing Rule Designer offline](https://www.ibm.com/docs/en/SSQP76_9.6.0/com.ibm.odm.kube/topics/tsk_install_designer_ol.html) | Download Rule Designer from a GitHub resource and install it into Eclipse. Requires an existing Eclipse installation. |
+
+	More informations on [ODM Documentation- Installing Rule Designer](https://www.ibm.com/docs/en/odm/9.6.0?topic=960-installing-rule-designer)
+ 
 -	**Sample projects**:
 
 	Two decision services can be directly used in Decision Center when you set the SAMPLE option to true as described in the Usage section below:
