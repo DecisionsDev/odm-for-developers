@@ -26,7 +26,7 @@ docker pull icr.io/cpopen/odm-k8s/odm
         https://github.com/ODMDev/odm-ondocker/tree/master/standalone/dockerhub
 
 -	**Supported Docker versions**:  
-	[latest release](https://docs.docker.com/engine/release-notes/#201021) (down to Engine 29.4)
+	[latest release](https://docs.docker.com/engine/release-notes/#201021) (down to Engine 29)
 
 -   **Rule Designer Development Environment for ODM Developers**:
 
